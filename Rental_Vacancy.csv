@@ -1,0 +1,52 @@
+Series ID,state,Region Code,vacany
+ALRVAC,Alabama,01,13.2
+AKRVAC,Alaska,02,11.1
+AZRVAC,Arizona,04,6.0
+ARRVAC,Arkansas,05,9.9
+CARVAC,California,06,4.4
+CORVAC,Colorado,08,3.4
+CTRVAC,Connecticut,09,6.1
+DERVAC,Delaware,10,7.1
+DCRVAC,District of Columbia,11,7.9
+FLRVAC,Florida,12,8.2
+GARVAC,Georgia,13,7.1
+HIRVAC,Hawaii,15,8.5
+IDRVAC,Idaho,16,5.5
+ILRVAC,Illinois,17,7.4
+INRVAC,Indiana,18,9.0
+IARVAC,Iowa,19,7.4
+KSRVAC,Kansas,20,10.5
+KYRVAC,Kentucky,21,6.2
+LARVAC,Louisiana,22,10.1
+MERVAC,Maine,23,4.4
+MDRVAC,Maryland,24,9.0
+MARVAC,Massachusetts,25,4.2
+MIRVAC,Michigan,26,7.4
+MNRVAC,Minnesota,27,5.0
+MSRVAC,Mississippi,28,9.7
+MORVAC,Missouri,29,10.0
+MTRVAC,Montana,30,5.9
+NERVAC,Nebraska,31,7.3
+NVRVAC,Nevada,32,6.2
+NHRVAC,New Hampshire,33,3.7
+NJRVAC,New Jersey,34,5.0
+NMRVAC,New Mexico,35,9.1
+NYRVAC,New York,36,5.2
+NCRVAC,North Carolina,37,7.1
+NDRVAC,North Dakota,38,14.3
+OHRVAC,Ohio,39,7.1
+OKRVAC,Oklahoma,40,11.6
+ORRVAC,Oregon,41,4.6
+PARVAC,Pennsylvania,42,6.7
+RIRVAC,Rhode Island,44,3.2
+SCRVAC,South Carolina,45,11.0
+SDRVAC,South Dakota,46,7.3
+TNRVAC,Tennessee,47,8.6
+TXRVAC,Texas,48,8.9
+UTRVAC,Utah,49,5.4
+VTRVAC,Vermont,50,4.2
+VARVAC,Virginia,51,6.5
+WARVAC,Washington,53,5.1
+WVRVAC,West Virginia,54,7.4
+WIRVAC,Wisconsin,55,4.6
+WYRVAC,Wyoming,56,13.0

@@ -1,0 +1,52 @@
+Series ID,state,Region Code,home_vacancy,rental_vacancy
+ALHVAC,Alabama,1,1.9,13.2
+AKHVAC,Alaska,2,1.8,11.1
+AZHVAC,Arizona,4,1.9,6
+ARHVAC,Arkansas,5,2.1,9.9
+CAHVAC,California,6,1.2,4.4
+COHVAC,Colorado,8,0.9,3.4
+CTHVAC,Connecticut,9,1.7,6.1
+DEHVAC,Delaware,10,1.1,7.1
+DCHVAC,District of Columbia,11,1.2,7.9
+FLHVAC,Florida,12,2.2,8.2
+GAHVAC,Georgia,13,1.6,7.1
+HIHVAC,Hawaii,15,1.7,8.5
+IDHVAC,Idaho,16,1.2,5.5
+ILHVAC,Illinois,17,1.7,7.4
+INHVAC,Indiana,18,1.3,9
+IAHVAC,Iowa,19,1.5,7.4
+KSHVAC,Kansas,20,1.6,10.5
+KYHVAC,Kentucky,21,1.3,6.2
+LAHVAC,Louisiana,22,1.9,10.1
+MEHVAC,Maine,23,1.1,4.4
+MDHVAC,Maryland,24,1.4,9
+MAHVAC,Massachusetts,25,1,4.2
+MIHVAC,Michigan,26,1.2,7.4
+MNHVAC,Minnesota,27,0.4,5
+MSHVAC,Mississippi,28,1.6,9.7
+MOHVAC,Missouri,29,1.6,10
+MTHVAC,Montana,30,1.4,5.9
+NEHVAC,Nebraska,31,1.2,7.3
+NVHVAC,Nevada,32,1.1,6.2
+NHHVAC,New Hampshire,33,0.9,3.7
+NJHVAC,New Jersey,34,1.5,5
+NMHVAC,New Mexico,35,2,9.1
+NYHVAC,New York,36,1.7,5.2
+NCHVAC,North Carolina,37,1.4,7.1
+NDHVAC,North Dakota,38,2.4,14.3
+OHHVAC,Ohio,39,1.1,7.1
+OKHVAC,Oklahoma,40,2.5,11.6
+ORHVAC,Oregon,41,1.3,4.6
+PAHVAC,Pennsylvania,42,1.6,6.7
+RIHVAC,Rhode Island,44,1.2,3.2
+SCHVAC,South Carolina,45,1.9,11
+SDHVAC,South Dakota,46,1.3,7.3
+TNHVAC,Tennessee,47,1.4,8.6
+TXHVAC,Texas,48,1.4,8.9
+UTHVAC,Utah,49,1,5.4
+VTHVAC,Vermont,50,1.1,4.2
+VAHVAC,Virginia,51,1.5,6.5
+WAHVAC,Washington,53,1.1,5.1
+WVHVAC,West Virginia,54,2.2,7.4
+WIHVAC,Wisconsin,55,1.4,4.6
+WYHVAC,Wyoming,56,2.6,13

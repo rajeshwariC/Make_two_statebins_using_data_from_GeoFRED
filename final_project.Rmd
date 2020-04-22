@@ -1,0 +1,36 @@
+---
+title: "project"
+author: "Rajeshwari Chaudhari"
+date: "11/23/2019"
+output: html_document
+---
+
+```{r}
+library(readr)
+library(tidyverse)
+```
+
+```{r}
+getwd()
+vacancy_data<-read_csv("Home_Vacancy.csv")
+```
+
+```{r}
+head(vacancy_data)
+```
+
+```{r}
+library(statebins)
+
+statebins_continuous(vacancy_data, state_col = "state",
+                     text_color = "white", value_col = "home_vacancy",
+                     brewer_pal="Reds", font_size = 3,
+                     legend_title="Home vacancy")
+
+statebins_continuous(vacancy_data,state_col = "state",
+                     text_color = "black", value_col = "rental_vacancy",
+                     brewer_pal="Blues", font_size = 3,
+                     legend_title="Rental Vacancy")
+```
+
+

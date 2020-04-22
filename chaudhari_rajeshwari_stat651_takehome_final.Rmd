@@ -1,0 +1,62 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+1.a)The speech bubble shown in the graph are meaningless. First I thout Its giving some important information as their size are diiferent but its not. 
+Horizontal scale is used in the graph and the bar lenght is not matching the figure its way out of the scale.
+The values are also confusing millions are compared with billions.
+3 mans shown in the right bottom cornor does not make any sence in the figure.
+There is no sourse for the data. and the number scale is not consistant.
+
+1.b) I created a dataset (language_data) using the same value shown in the graph.
+
+```{r}
+language_data<-read_csv("language_data.csv")
+head(language_data)
+
+```
+```{r}
+language_data$language <- factor(language_data$language, levels = language_data$language[order(-language_data$number_of_speakers)])
+ggplot(language_data, aes(language,number_of_speakers)) + 
+  geom_bar(stat = "identity") +
+  geom_text(aes(label = number_of_speakers), vjust = -0.3) + 
+  xlab("Language") +ylab("Number of Speakers")
+```
+
+1.c) Their are so many mistakes in theGraph of "How baby bombers describe themselves". First of all the perentage value is given is not add up to 100% its total is 243% Its really confusing. Sourse of the data is not available. 
+Colors showing the shape of the person makes it more cofusing. Author could have used something else, some other type of graph to show the percentage of the baby boomers. We cant predict anything from the shape of the person and the percentage also does not make any sence. Very difficult to understand what the data is trying to say.
+
+
+```{r}
+library(gamclass)
+data(FARS)
+head(FARS)
+fars<-as.data.frame(FARS)
+fars<-subset(fars, age<150)
+head(fars)
+```
+
+```{r}
+boxplot(age~injury, xlab = "Injury Type", ylab="Age", data=fars)
+```
+
+```{r}
+head(fars)
+library(ggplot2)
+library(dplyr)
+library(tidyverse)
+ggplot(data = fars, aes(as.factor(injury), age)) +  geom_boxplot() + geom_text(lable=c(""))
+```
+
+
+```{r}
+ggplot(fars, aes(injury, age)) +geom_violin()
+```
+
+
+```{r}
+library(lvplot)
+ggplot(fars, aes(injury,age)) + geom_lv() + scale_fill_lv()
+```
+
